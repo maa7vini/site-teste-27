@@ -85,7 +85,7 @@
 
 .card-cadastro input {
     margin: 15px 0px;
-    width: 90%;
+    width: 95%;
     padding: 10px;
     outline: none;
     border-radius: 10px;
@@ -107,7 +107,7 @@
 
 .card-cadastro button {
     padding: 10px;
-    width: 90%;
+    width: 95%;
     background-color: #37CD8A;
     border-radius: 10px;
     border: none;
@@ -120,3 +120,92 @@
     transition: .5s;
     cursor: pointer;
 }
+
+@media (max-width: 1155px) {
+    .left-txt h1 {
+        font-size: 3em;
+        line-height: 1.2em;
+    }
+    
+    .left-txt p {
+        margin-top: 15px;
+        font-size: .9em;
+    }
+}
+
+@media (max-width: 1040px) {
+    .area-principal {
+        height: 100vh;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        padding: 10px;
+    }
+
+    .left-area {
+        height: 100vh;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .left-txt p {
+        margin-top: 5px;
+        font-size: .8em;
+    }
+
+    .right-area {
+        height: 100vh;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .card-cadastro {
+        height: 350px;
+        width: 500px;
+        margin-top: 10px;
+    }
+}
+
+@media (max-width: 530px) {
+    .card-cadastro {
+        height: 350px;
+        width: 400px;
+        margin-top: 10px;
+    }
+
+    .try-free {
+        width: 400px;
+    }
+
+    .card-cadastro p {
+        font-size: .8em;
+        margin-top: 5px;
+        color: rgba(128, 128, 128, 0.829);
+        text-shadow: 3px 3px 3px rgba(0, 0, 0, 0.096);
+        text-align: center;
+        width: 90%;
+    }
+
+    .card-cadastro button {
+        margin-top: -10px;
+    }
+}
+
+@media (max-width:515px) {
+    .left-txt h1 {
+        font-size: 2.7em;
+        line-height: 1.2em;
+    }
+    
+    .left-txt p {
+        margin-top: 15px;
+        font-size: .8em;
+    }
+}
+
