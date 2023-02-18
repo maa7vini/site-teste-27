@@ -1,0 +1,122 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Noto Sans', sans-serif;
+}
+
+.area-principal {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #ff7878e8;
+    background-image: url(bg-intro-desktop.png);
+}
+
+.left-area {
+    height: 100vh;
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.left-txt {
+    width: 80%;
+    text-align: center;
+}
+
+.left-txt h1 {
+    font-size: 3.5em;
+    color: whitesmoke;
+    line-height: 1.2em;
+    text-shadow: 3px 3px 3px rgba(0, 0, 0, 0.253);
+}
+
+.left-txt p {
+    color: whitesmoke;
+    margin-top: 15px;
+    font-size: 1em;
+    text-shadow: 3px 3px 3px rgba(0, 0, 0, 0.144);
+}
+
+.right-area {
+    height: 100vh;
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.try-free {
+    width: 500px;
+    background-color: #5C54A2;
+    padding: 15px;
+    border-radius: 10px;
+    color: whitesmoke;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.171);
+}
+
+.try-free p {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.card-cadastro {
+    height: 400px;
+    width: 500px;
+    background-color: whitesmoke;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 20px;
+    border-radius: 20px;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.164);
+}
+
+.card-cadastro input {
+    margin: 15px 0px;
+    width: 90%;
+    padding: 10px;
+    outline: none;
+    border-radius: 10px;
+    border: 1px solid rgba(0, 0, 0, 0.459);
+}
+
+.card-cadastro p {
+    font-size: .8em;
+    margin-top: 10px;
+    color: rgba(128, 128, 128, 0.829);
+    text-shadow: 3px 3px 3px rgba(0, 0, 0, 0.096);
+}
+
+.card-cadastro a {
+    text-decoration: none;
+    color: #ff5c5ce8;
+    font-weight: bold;
+}
+
+.card-cadastro button {
+    padding: 10px;
+    width: 90%;
+    background-color: #37CD8A;
+    border-radius: 10px;
+    border: none;
+    font-weight: bold;
+    color: whitesmoke;
+}
+
+.card-cadastro button:hover {
+    background-color: #16995e;
+    transition: .5s;
+    cursor: pointer;
+}
